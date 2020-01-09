@@ -12,6 +12,9 @@ import './utils/register-vant.js'
 // 注意  该样式要放在第三方样式之后
 import './styles/index.less'
 
+// 加载表单验证模块插件初始化配置
+import './utils/validation'
+
 Vue.config.productionTip = false
 
 new Vue({
