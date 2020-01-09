@@ -1,9 +1,16 @@
 <template>
-  <div id="app">
+ <div id="app">
+   <router-view></router-view>
 
-  </div>
+ </div>
 </template>
 
-<style lang="less">
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
+<style lang="less" scoped>
+  // @import url('./styles/variables.less');
 </style>
