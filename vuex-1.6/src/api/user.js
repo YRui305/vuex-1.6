@@ -28,3 +28,13 @@ export const getSmsCode = mobile => {
 
   })
 }
+// 获取当前用户个人信息
+export const getUserInfo = () => {
+  return request({
+    // 请求方法
+    method: 'GET',
+    // 请求路径
+    url: `/app/v1_0/user`
+
+  })
+}
